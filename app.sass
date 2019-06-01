@@ -1,20 +1,31 @@
-$pink: #d46ce7
-$blue: #89aee1
-$purple:#7837eb
 
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap')
+$frijole: 'Frijole', cursive
+$lightBlue:#AED9E0
+$darkGrey: #5E6472
+$lightPink:#FAF3DD
+
+//sass --watch app.sass:app.css
+
+//Title
 #header
-  background-color: 	#AED9E0
+  background-color: $lightBlue
+  font-family: $frijole
 
 #title
-  color: #5E6472
+  color:$darkGrey
 
 
-
+//Quiz
 #quiz_section
-  background: #5E6472
+  background:$darkGrey
   div
     h2
       color: #B8F2E6
   form
     p
-      color: #FAF3DD
+      color: $lightPink
+
+.result
+  p
+    color: $darkGrey

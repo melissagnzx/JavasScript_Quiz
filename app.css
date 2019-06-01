@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Frijole&display=swap");
 #header {
   background-color: #AED9E0;
+  font-family: "Frijole", cursive;
 }
 
 #title {
@@ -14,6 +16,10 @@
 }
 #quiz_section form p {
   color: #FAF3DD;
+}
+
+.result p {
+  color: #5E6472;
 }
 
 /*# sourceMappingURL=app.css.map */
